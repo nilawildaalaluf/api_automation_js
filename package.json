@@ -1,0 +1,27 @@
+{
+  "name": "api_automation_js",
+  "version": "1.0.0",
+  "description": "mocha chai petstore",
+  "main": "index.js",
+  "scripts": {
+    "welcome": "mocha test/api/welcomeTest.js",
+    "test get": "mocha test/api/getPetstore.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilawildaalaluf/api_automation_js.git"
+  },
+  "author": "nila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilawildaalaluf/api_automation_js/issues"
+  },
+  "homepage": "https://github.com/nilawildaalaluf/api_automation_js#readme",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.2.0",
+    "supertest": "^6.3.3"
+  }
+}
